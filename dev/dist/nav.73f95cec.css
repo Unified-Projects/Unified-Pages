@@ -1,0 +1,27 @@
+.navbar {
+  margin: auto;
+  padding: 2rem;
+  display: inline-flex;
+  position: absolute;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.navcontainer {
+  padding: 2rem;
+  padding-left: 0;
+}
+
+.navbutton {
+  color: white;
+}
+
+.navboarder {
+  border: 0.5vmin;
+  border-style: solid;
+  border-radius: 2vmin;
+  padding: 1.25vmin;
+}
+
+/*# sourceMappingURL=/nav.73f95cec.css.map */

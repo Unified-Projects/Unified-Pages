@@ -1,2 +1,5 @@
 .vscode
 .cache
+.dev/dist
+.dev/node_modules
+.dev/.cache
