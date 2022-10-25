@@ -2,10 +2,7 @@
   margin: auto;
   padding: 2rem;
   display: inline-flex;
-  position: absolute;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
 }
 
 .navcontainer {
@@ -15,6 +12,7 @@
 
 .navbutton {
   color: white;
+  font-size: 4rem;
 }
 
 .navboarder {
@@ -22,6 +20,28 @@
   border-style: solid;
   border-radius: 2vmin;
   padding: 1.25vmin;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    margin: auto;
+    padding: 2rem;
+    display: inline-flex;
+  }
+  .navcontainer {
+    padding: 2rem;
+    padding-left: 0;
+  }
+  .navbutton {
+    color: white;
+    font-size: 3rem;
+  }
+  .navboarder {
+    border: 0.5vmin;
+    border-style: solid;
+    border-radius: 2vmin;
+    padding: 1.25vmin;
+  }
 }
 
 /*# sourceMappingURL=/nav.73f95cec.css.map */
