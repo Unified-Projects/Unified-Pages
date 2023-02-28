@@ -4,11 +4,13 @@
   "description": "The code for the website hosted",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel *.html"
   },
   "author": "Zak Noble-Clarke",
   "license": "MIT",
   "devDependencies": {
+    "node-sass": "^8.0.0",
     "sass": "^1.55.0"
   },
   "dependencies": {
