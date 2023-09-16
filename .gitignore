@@ -1,5 +1,6 @@
 .vscode
-.cache
-.dev/dist
-.dev/node_modules
-.dev/.cache
+cache/
+dev/dist/
+dev/node_modules/
+dev/.cache/
+dev/.parcel-cache/
